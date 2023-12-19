@@ -1,1 +1,1 @@
-# slot_attention_ner
+# Utilizing Slot Attention for NER
