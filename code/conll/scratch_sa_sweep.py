@@ -294,7 +294,7 @@ def load_data(dataset_name="conll2003"):
     Function to load the given dataset in tokenized format
     """
 
-    dataset = load_dataset(dataset_name, "en")
+    dataset = load_dataset(dataset_name)
     print(len(dataset), type(dataset))
     tokenizer = BertTokenizerFast.from_pretrained('bert-base-uncased')
     label_names = dataset["train"].features["ner_tags"].feature.names
