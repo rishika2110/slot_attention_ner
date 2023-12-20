@@ -17,7 +17,7 @@ Files and their working:
 
 `code/conll/sa_model_sweep.py` : Runs a wandb sweep for setting utilizing multi-head attention mechanism while keeping the embeddings frozen.
 
-`code/conll/slot_model_Sweep.py` : Runs a wandb sweep for setting utilizing slot attention mechanism while keeping the embeddings frozen.
+`code/conll/slot_model_sweep.py` : Runs a wandb sweep for setting utilizing slot attention mechanism while keeping the embeddings frozen.
 
 `code/conll/scratch_sa_sweep.py` : Runs a wandb sweep for setting utilizing multi-head attention mechanism while finetuning the embeddings.
 
